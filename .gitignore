@@ -1,0 +1,26 @@
+# Arduino-generated build output
+build/
+*.elf
+*.hex
+*.eep
+*.bin
+*.map
+*.o
+*.d
+*.a
+
+# Local editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python helper caches
+__pycache__/
+*.pyc
+.venv/
+
+# Local measurements or temporary exports (curate before committing)
+*.log
+*.tmp

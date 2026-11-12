@@ -1,0 +1,4 @@
+reference_lm35_c,measured_ntc_c,difference_ntc_minus_lm35_c
+8.4,8.6,0.2
+29.8,29.7,-0.1
+51.3,51.0,-0.3

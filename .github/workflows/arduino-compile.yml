@@ -1,0 +1,26 @@
+name: Arduino Uno compile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+      - name: Install Uno AVR core
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+      - name: Compile firmware for Arduino Uno R3
+        run: arduino-cli compile --fqbn arduino:avr:uno firmware/ntc_temperature_monitor
+      - name: Validate formulas with Python
+        run: python3 scripts/verify_math.py

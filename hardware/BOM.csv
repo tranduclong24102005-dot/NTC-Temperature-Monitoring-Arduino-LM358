@@ -1,0 +1,15 @@
+Component,Quantity,Value_or_model,Role,Notes
+Arduino Uno R3,1,ATmega328P board,ADC and serial interface,USB cable required
+NTC thermistor,1,MF58 10k beta=3950,Temperature sensing,Check actual R25 and beta
+LM358 DIP-8,1,Dual operational amplifier,Gain and buffered reference,Power from 5V not 3.3V
+R1,1,10k ohm,NTC voltage divider,Measured resistance recommended
+R2,1,10k ohm,Inverting reference branch,Measured resistance recommended
+R3,1,5.6k ohm,LM358A feedback,Measured resistance recommended
+R4,1,10k ohm,Reference divider upper,Measured resistance recommended
+R5,1,10k ohm,Reference divider lower,Measured resistance recommended
+C1,1,100nF ceramic,RC filter at VIN,In original report
+C2,1,100nF ceramic,LM358 supply decoupling,Recommended addition not in original BOM
+Breadboard,1,Standard,Prototyping,Check power rail continuity
+Jumper wires,1 set,Assorted,Connections,Prefer short signal wires
+Multimeter,1,DC voltage mode,Initial voltage verification,Recommended for safe rebuild
+USB cable,1,Data-capable cable,Power and upload,Compatible with board USB port
