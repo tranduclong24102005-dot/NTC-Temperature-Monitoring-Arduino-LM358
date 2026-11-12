@@ -6,6 +6,27 @@ A learning-oriented temperature measurement project using an **NTC 10 kΩ / β=3
 
 ![Photo of the original breadboard prototype](media/prototype.jpg)
 
+## Circuit Schematics
+
+The following circuit diagrams are extracted from the original academic project report. They illustrate the NTC temperature measurement circuit, LM358 signal conditioning, and RC low-pass filter.
+
+### 1. NTC Temperature Measurement Circuit with LM358
+
+![NTC Thermistor and LM358 Circuit Schematic](media/ntc-lm358-schematic-original.png)
+
+*Figure 1. NTC 10k thermistor, LM358 operational amplifiers, voltage reference (1.65 V), and Arduino analog input A0. Source: Page 5 of the original project report.*
+
+### 2. RC Low-Pass Filter
+
+![RC Low-Pass Filter Circuit](media/rc-filter-original.png)
+
+*Figure 2. RC low-pass filter using a 100 nF capacitor connected between Vin and GND. Source: Page 9 of the original project report.*
+
+> **Technical Note:** These diagrams are reproduced from the original academic report. The circuit connections, power supply voltages, LM358 output limitations, and Arduino ADC reference should be verified before hardware implementation.
+
+For detailed calculations and circuit design explanations, refer to the [original project report](report/Cam-bien-original.pdf) and the [wiring guide](hardware/WIRING.vi.md).
+
+
 ## What you'll learn
 
 - Build an NTC voltage divider (3.3 V supply) with a 100 nF capacitor at VIN.
