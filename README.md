@@ -8,6 +8,23 @@
 
 ![Nguyên mẫu Arduino Uno và breadboard của dự án](media/prototype.jpg)
 
+## Sơ đồ nguyên lý mạch điện
+
+### 1. Mạch đo nhiệt độ NTC và LM358
+
+![NTC LM358 Circuit Schematic](media/ntc-lm358-schematic-original.png)
+
+*Sơ đồ nguyên lý trích từ trang 5 của báo cáo gốc.*
+
+### 2. Bộ lọc thông thấp RC
+
+![RC Low Pass Filter](media/rc-filter-original.png)
+
+*Tụ C1 = 100 nF mắc giữa Vin và GND, theo trang 9 của báo cáo.*
+
+> Lưu ý: Đây là sơ đồ theo báo cáo học thuật.
+> Các thông số và kết nối cần được kiểm tra trước khi tái dựng phần cứng.
+
 > [!NOTE]
 > Đây là bản chia sẻ lại dự án học phần dựa trên báo cáo gốc 20 trang. Firmware trong repo được **biên soạn lại** từ mã được in trong báo cáo, bổ sung kiểm tra dữ liệu và giải thích. Các thử nghiệm số học có thể chạy trên máy tính; **chưa có xác nhận độc lập rằng bản firmware biên soạn lại đã được chạy trên phần cứng thật**. Kết quả thực nghiệm dưới đây là số liệu được ghi trong báo cáo, không phải phép đo mới.
 
