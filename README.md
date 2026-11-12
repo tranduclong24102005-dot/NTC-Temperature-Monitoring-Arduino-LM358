@@ -1,5 +1,7 @@
 # NTC Temperature Monitoring with LM358 & Arduino Uno
 
+[![Arduino Uno Compile](https://github.com/tranduclong24102005-dot/NTC-Temperature-Monitoring-Arduino-LM358/actions/workflows/arduino-compile.yml/badge.svg)](https://github.com/tranduclong24102005-dot/NTC-Temperature-Monitoring-Arduino-LM358/actions/workflows/arduino-compile.yml)
+
 **Dự án môn học | Temperature sensor · Signal conditioning · Arduino · Calibration**
 
 [**Tiếng Việt**](README.md) · [**English**](README.en.md) · [Hướng dẫn lắp mạch](hardware/WIRING.vi.md) · [Mã nguồn Arduino](firmware/ntc_temperature_monitor/ntc_temperature_monitor.ino) · [Báo cáo gốc](report/Cam-bien-original.pdf)
@@ -126,3 +128,18 @@ python scripts/calibrate_steinhart_hart.py data/calibration_points_from_report.c
 **Trạng thái:** `educational reconstruction` · `math checks included` · `hardware verification pending`.
 
 Nếu dự án hữu ích, bạn có thể **Star**, mở **Issue** báo lỗi hoặc gửi **Pull Request** cải tiến.
+
+
+## 8. Tác giả / Author
+
+**Trần Đức Long (Tran Duc Long)** — Project Lead & Primary Author
+
+- **GitHub:** [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
+- **Project:** NTC Temperature Monitoring using Arduino Uno & LM358
+- **Category:** Academic Project | Embedded Systems | Electronics
+
+This repository documents my academic project, covering circuit design, Arduino firmware, signal processing, sensor calibration, and experimental evaluation. It is shared to help students and electronics enthusiasts study and reproduce the system.
+
+**Acknowledgments:** Other contributors and external references are credited where applicable.
+  
+
