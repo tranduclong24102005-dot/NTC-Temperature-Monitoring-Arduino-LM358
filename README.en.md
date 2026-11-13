@@ -88,12 +88,23 @@ See [the technical review notes](docs/REVIEW_NOTES.vi.md) and the [calibration i
  **Project status:** The original hardware prototype was built and experimentally evaluated.
 
 
-## Author
 
-**Tran Duc Long** — Project Lead & Primary Author
+## Authors & Contributors
 
-- **GitHub:** [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
-- **Project:** NTC Temperature Monitoring using Arduino Uno & LM358
-- **Category:** Academic Project | Embedded Systems | Electronics
+This academic project was developed by a team of two students.
 
-This project is shared as an educational reference to help students understand temperature sensing, analog signal conditioning, Arduino programming, and sensor calibration.
+| **Tran Duc Long** | Project Lead |
+| **Le Minh Hien** | Co-author |
+
+### Project Contributions
+
+Both team members contributed to the development of this academic project, covering research, circuit design, hardware implementation, Arduino programming, and experimental evaluation.
+
+### Repository Maintainer
+
+**Tran Duc Long**
+
+GitHub: [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
+
+This repository is publicly maintained for educational purposes, allowing students and electronics enthusiasts to study, reproduce, and improve the temperature monitoring system.
+

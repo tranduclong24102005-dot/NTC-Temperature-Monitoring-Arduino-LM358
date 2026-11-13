@@ -135,21 +135,30 @@ python scripts/calibrate_steinhart_hart.py data/calibration_points_from_report.c
 - [LM358 – Texas Instruments](https://www.ti.com/product/LM358)
 - Mã firmware và tài liệu hướng dẫn mới trong repository: [MIT License](LICENSE). **Báo cáo gốc và ảnh không đương nhiên thuộc phạm vi giấy phép MIT**. Xem [CONTENT_NOTICE.md](CONTENT_NOTICE.md).
 
-**Trạng thái:** Mạch gốc đã được lắp ráp và thử nghiệm thực tế.
+**Trạng thái:** Mạch gốc đã được lắp ráp và thử nghiệm thực tế (xem báo cáo PDF). Firmware biên soạn lại trên GitHub đã biên dịch thành công qua GitHub Actions nhưng chưa được kiểm thử riêng trên mạch gốc.
 
 Nếu dự án hữu ích, bạn có thể **Star**, mở **Issue** báo lỗi hoặc gửi **Pull Request** cải tiến.
 
 
-## 8. Tác giả / Author
 
-**Tran Duc Long** — Project Lead & Primary Author
+## 8. Nhóm thực hiện / Authors
 
-- **GitHub:** [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
-- **Project:** NTC Temperature Monitoring using Arduino Uno & LM358
-- **Category:** Academic Project | Embedded Systems | Electronics
+Đây là dự án môn học được thực hiện bởi nhóm gồm 2 thành viên.
 
-This repository documents my academic project, covering circuit design, Arduino firmware, signal processing, sensor calibration, and experimental evaluation. It is shared to help students and electronics enthusiasts study and reproduce the system.
+| **Tran Duc Long** | Project Lead |
+| **Le Minh Hien** | Co-author |
 
-**Acknowledgments:** Other contributors and external references are credited where applicable.
+### Đóng góp
+
+Dự án được thực hiện với sự hợp tác của cả hai thành viên, bao gồm quá trình nghiên cứu, thiết kế mạch, triển khai phần cứng, lập trình Arduino và thực nghiệm.
+
+### Repository Maintainer
+
+**Trần Đức Long**
+
+GitHub: [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
+
+Repository này được công khai nhằm chia sẻ kiến thức, mã nguồn, sơ đồ mạch và kết quả thực nghiệm để sinh viên có thể tham khảo và tái dựng dự án.
+
   
 
