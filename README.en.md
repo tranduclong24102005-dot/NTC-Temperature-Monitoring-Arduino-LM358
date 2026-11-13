@@ -26,8 +26,6 @@ The following circuit diagrams are extracted from the original academic project 
 
 *Figure 2. RC low-pass filter using a 100 nF capacitor connected between Vin and GND. Source: Page 9 of the original project report.*
 
-> **Technical Note:** These diagrams are reproduced from the original academic report. The circuit connections, power supply voltages, LM358 output limitations, and Arduino ADC reference should be verified before hardware implementation.
-
 For detailed calculations and circuit design explanations, refer to the [original project report](report/Cam-bien-original.pdf) and the [wiring guide](hardware/WIRING.vi.md).
 
 
