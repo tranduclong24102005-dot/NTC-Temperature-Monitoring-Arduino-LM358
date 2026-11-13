@@ -1,5 +1,9 @@
 # NTC Temperature Monitoring — Arduino Uno + LM358
 
+[![Arduino Uno Compile](https://github.com/tranduclong24102005-dot/NTC-Temperature-Monitoring-Arduino-LM358/actions/workflows/arduino-compile.yml/badge.svg)](https://github.com/tranduclong24102005-dot/NTC-Temperature-Monitoring-Arduino-LM358/actions/workflows/arduino-compile.yml)
+
+**Temperature sensor · Signal conditioning · Arduino · Calibration**
+
 [Tiếng Việt — full guide](README.md) · [Wiring & pinout (VI)](hardware/WIRING.vi.md) · [Firmware](firmware/ntc_temperature_monitor/ntc_temperature_monitor.ino) · [Original report (VI)](report/Cam-bien-original.pdf)
 
 A learning-oriented temperature measurement project using an **NTC 10 kΩ / β=3950 thermistor**, a voltage divider, **LM358** analog signal conditioning, the **10-bit ADC on Arduino Uno R3**, an **exponential moving average (EMA)** filter and the **Steinhart–Hart equation**.
@@ -83,4 +87,15 @@ The original report contains these three readings. The largest absolute differen
 
 See [the technical review notes](docs/REVIEW_NOTES.vi.md) and the [calibration instructions](docs/CALIBRATION.vi.md). The accompanying PDF is preserved as historical material and may contain third-party images; the [MIT license](LICENSE) covers **new source code and original repository documentation**, not automatically all contents of the report.
 
-**Project status:** Educational reference; numerical checks included; physical reproducibility pending.
+ **Project status:** The original hardware prototype was built and experimentally evaluated.
+
+
+## Author
+
+**Tran Duc Long** — Project Lead & Primary Author
+
+- **GitHub:** [@tranduclong24102005-dot](https://github.com/tranduclong24102005-dot)
+- **Project:** NTC Temperature Monitoring using Arduino Uno & LM358
+- **Category:** Academic Project | Embedded Systems | Electronics
+
+This project is shared as an educational reference to help students understand temperature sensing, analog signal conditioning, Arduino programming, and sensor calibration.
